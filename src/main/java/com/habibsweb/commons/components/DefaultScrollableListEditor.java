@@ -5,7 +5,7 @@
  */
 package com.habibsweb.commons.components;
 
-import com.habibsweb.commons.commonroutines.TextFieldContextMenu.DefaultContextMenu;
+import com.github.lespaul361.commons.commonroutines.textfieldcontextmenu.DefaultContextMenu;
 import com.habibsweb.commons.components.list.ScrollableListRenderer;
 import java.awt.Component;
 import java.awt.event.ActionEvent;
@@ -54,7 +54,7 @@ public class DefaultScrollableListEditor extends AbstractScrollableListItemEdito
      */
     @ConstructorProperties({"component"})
     public DefaultScrollableListEditor(final JTextField textField) {
-        DefaultContextMenu mnu =new DefaultContextMenu();
+        DefaultContextMenu mnu = new DefaultContextMenu();
         mnu.add(textField);
         editorComponent = textField;
         editorComponent.setEnabled(true);
