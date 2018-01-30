@@ -9,7 +9,7 @@
     </repositories>
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.habibsweb.commons</groupId>
-    <artifactId>selectlistbox</artifactId>
+    <artifactId>SelectListbox</artifactId>
     <version>1.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
     <properties>
