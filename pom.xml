@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-    <repositories>
-        <repository>
-            <id>Habib-Commons</id>
-            <name>Habib-Commons</name>
-            <url>https://github.com/lespaul361/Habib-Commons</url>
-        </repository>    
-    </repositories>
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.habibsweb.commons</groupId>
+    <groupId>com.github.lespaul361</groupId>
     <artifactId>SelectListbox</artifactId>
     <version>1.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
